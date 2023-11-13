@@ -6,4 +6,4 @@ for i in s:
 a=""
 for n in new_s:
     a+=n
-print(a[0]+a[2:])
+print("Ответ: ",a[0]+a[2:])

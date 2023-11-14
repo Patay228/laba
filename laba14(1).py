@@ -1,10 +1,17 @@
-s =input()
+s =input("Введите строку: ")
 new_s = []
 for i in s:
     if i not in new_s:
         new_s.append(i)
-
 a=""
 for n in new_s:
-    a+=n
-print("Ответ: ",a[0]+a[2:])
+    if a!=" ":
+        a+=n
+x=[]
+for g in a:
+    if g not in x and g!=" ":
+        x.append(g)
+z=""
+for k in x:
+    z=z+k
+print("Ответ: ",z)

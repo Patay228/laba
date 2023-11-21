@@ -35,5 +35,5 @@ while q==0:
     for i in range(1,len(lst)):
         if abs(lst[i])>abs(maximum):
             maximum=lst[i]
-    print("Кол-во произведения всех чисел, стоящих после максимального по модулю",f(lst[t(lst,maximum):])/maximum)
+    print("Кол-во произведения всех чисел, стоящих после максимального по модулю: ",f(lst[t(lst,maximum):])/maximum)
     break

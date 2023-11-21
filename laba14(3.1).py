@@ -27,7 +27,7 @@ while q==0:
         if krat2==[]:
             print("Ошибка")
             break
-        print("Кол-воккртаных 2: ",c,"Их сумма:: ",f(krat2))
+        print("Кол-во кртаных 2: ",c,"Их сумма: ",f(krat2))
         break
     else:
         print("Ошибка")

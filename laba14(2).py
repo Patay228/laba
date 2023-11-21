@@ -1,8 +1,4 @@
-def f(y,start,stop):
-    result=[]
-    for q in range(start,stop):
-        result.append(y[q])
-    return result
+
 def F(g):
     if len(g)==0:
         return None
